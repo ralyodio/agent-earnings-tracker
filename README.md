@@ -22,11 +22,27 @@ python3 earnings.py
 # Add a tracked platform
 python3 earnings.py add ugig
 
+# Log ugig earnings
+python3 earnings.py log ugig 25 "First ugig microtask"
+python3 earnings.py log ugig 42.50 "Weekly ugig payout"
+
 # Show summary
 python3 earnings.py summary
 
 # Export to CSV
 python3 earnings.py export
+```
+
+## More ugig Examples
+
+```bash
+# Add ugig, then log multiple earnings events
+python3 earnings.py add ugig
+python3 earnings.py log ugig 12 "Quick translation task"
+python3 earnings.py log ugig 67.75 "Batch content review"
+
+# Check the latest totals after ugig entries
+python3 earnings.py summary
 ```
 
 ## Why This Exists
